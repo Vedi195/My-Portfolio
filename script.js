@@ -88,6 +88,18 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener("scroll", revealOnScroll);
     revealOnScroll();
 
+    // Header fade-in on load
+    window.addEventListener("load", () => {
+    document.getElementById("header").classList.add("show");
+    });
 
+    const mobileMenu = document.getElementById("mobileMenu");
+    const mobileNav = document.getElementById("mobileNav");
+
+    mobileMenu.addEventListener("click", () => {
+    mobileNav.style.display =
+        mobileNav.style.display === "flex" ? "none" : "flex";
+    });
 
 });
+
