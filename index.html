@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1 class="fade-up">Welcome to My Portfolio</h1>
+            <p class="fade-up">Aspiring Full Stack Developer crafting modern apps.</p>
+
+            <div class="buttons fade-up">
+                <button class="btn" onclick="scrollToSection('work')">View My Work</button>
+                <button class="btn" onclick="scrollToSection('about')">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="about-container">
+
+            <!-- Profile Image -->
+            <div class="image-section fade-left">
+                <img src="images/profile1.jpeg" alt="Vedika Profile Photo" class="float fade-left">
+            </div>
+
+            <!-- Text Section -->
+            <div class="about-texts fade-right">
+                <h1>About Me</h1>
+
+                <p class="about-text">
+                    Hi! I'm <strong>Vedika</strong>, an 18-year-old IT student passionate about building 
+                    clean, modern, and user-friendly web applications.
+                </p>
+
+                <p class="about-text">
+                    I specialize in creating responsive and interactive interfaces using 
+                    <strong>React</strong>, and I have hands-on experience with full-stack development 
+                    using <strong>Node.js</strong> and <strong>MongoDB</strong>.
+                </p>
+
+                <p class="about-text">
+                    I enjoy learning new technologies, improving my coding skills every day, 
+                    and building projects like <strong>Self-Care Assistant</strong> and 
+                    <strong>BrainSpark</strong> to enhance my portfolio.
+                </p>
+
+                <p class="about-text">
+                    I'm always excited to explore new tools, work on real-world projects, 
+                    and grow as a developer.
+                </p>
+
+                <p class="about-text">
+                    Connect with me on 
+                    <a href="https://www.linkedin.com/in/vedika-vakhare-000aa1320"
+                    target="_blank">LinkedIn</a>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <!-- HTML -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                <h3>HTML5</h3>
+                <p>Markup & structure</p>
+            </div>
+
+            <!-- CSS -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+                <h3>CSS3</h3>
+                <p>Styling & layout</p>
+            </div>
+
+            <!-- JavaScript -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+                <h3>JavaScript</h3>
+                <p>ES6+ functionality</p>
+            </div>
+
+            <!-- React -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                <h3>React</h3>
+                <p>Component-based UI</p>
+            </div>
+
+            <!-- Node.js -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                <h3>Node.js</h3>
+                <p>Backend runtime</p>
+            </div>
+
+            <!-- MongoDB -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" />
+                <h3>MongoDB</h3>
+                <p>NoSQL database</p>
+            </div>
+
+            <!-- Web Design -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn-icons-png.flaticon.com/512/1829/1829586.png" />
+                <h3>Web Designing</h3>
+                <p>UI/UX & responsive design</p>
+            </div>
+
+            <!-- Communication -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn-icons-png.flaticon.com/512/3194/3194582.png" />
+                <h3>Communication</h3>
+                <p>Clear & effective speaker</p>
+            </div>
+
+            <!-- Teamwork -->
+            <div class="skill-card fade-up">
+                <img src="https://cdn-icons-png.flaticon.com/512/2970/2970785.png" />
+                <h3>Teamwork</h3>
+                <p>Collaborative mindset</p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section id="work" class="containe">
+        <div class="containerss">
+            <h2 class="project-heading">Featured Projects</h2>
+        
+            <div class="projects-grid">
+
+                <!-- Self-Care Assistant (React Project) -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/self.jpeg" alt=" Self-Care Assistant (React Project)" id="portfolio-img">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">Self-Care Assistant (React Project)</h2>
+                        <p class="project-description">A user-friendly React self-care assistant for everyday wellness.</p>
+                        <a href="https://github.com/Vedi195/self-care-assistant" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- AI Interview Preparation Portal (Group Project – Duo) -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/interview4.webp" alt=" AI Interview Prep" id="">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">AI Interview Preparation Portal (Group Project – Duo)</h2>
+                        <p class="project-description">A collaborative project built with a partner, focusing on creating a responsive AI-based interview practice portal with a modern UI.</p>
+                        <a href="https://endearing-dodol-1923aa.netlify.app/" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- ECHOES OF QUOTES -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/po3.jpg" alt="ECHOES OF QUOTES" id="ecommerce-img">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">ECHOES OF QUOTES</h2>
+                        <p class="project-description">"Words that inspire, one quote at a time."</p>
+                        <a href="https://echoesofthequotes.netlify.app/" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Website -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/portfolio.jpeg" alt=" My Portfolio Website" id="portfolio-img">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title"> My Portfolio Website</h2>
+                        <p class="project-description">Custom animated intro and user-friendly interface.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- BrainSpark – Daily Challenge Hub (React Project) (In Progress) -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/brainspark.avif" alt=" BrainSpark" id="">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">BrainSpark – Daily Challenge Hub (React Project) (In Progress)</h2>
+                        <p class="project-description">A playful and interactive learning website designed to make daily quizzes, riddles, and logic puzzles engaging for users.</p>
+                        <a href="https://github.com/Vedi195/BrainSpark" class="btn">View Project</a>
+                    </div>
+                </div>
+
+                <!-- 🕹️ Maze Game -->
+                <div class="project-card zoom-in">
+                    <div class="project-image">
+                        <img src="images/mazegame.webp" alt="🕹️ Maze Game" id="taskapp-img">
+                    </div>
+                    <div class="project-content">
+                        <h2 class="project-title">🕹️ Maze Game</h2>
+                        <p class="project-description">"Escape the maze, challenge your mind!"</p>
+                        <div class="btn-container">
+                            <a href="https://krishnamazegame4.netlify.app/" class="btn">For(Tablat/Mobile)</a>
+                            <a href="https://mazepuzzle-game.netlify.app" class="btn">For(Laptop/PC)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="containers">
+        <h2 class="contact-heading">Contact Me</h2>
+        
+        <div class="contact-grid">
+            
+            <!-- Direct Contact -->
+            <div class="contact-card fade-up">
+                <div class="icon-container">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="7" r="4"></circle>
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                    </svg>
+                </div>
+                <div class="contact-content">
+                    <h2 class="contact-title">Direct Contact</h2>
+                    <p class="contact-text">Email: <a href="mailto:vedikavakhare@gmail.com" class="social-link">vedikavakhare@gmail.com</a></p>
+                    <p class="contact-text">Phone: <a href="tel:9016505424" class="social-link">(901) 650-5424</a></p>
+                </div>
+            </div>
+            
+            <!-- Follow Me -->
+            <div class="contact-card fade-up">
+                <div class="icon-container">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                    </svg>
+                </div>
+                <div class="contact-content">
+                    <h2 class="contact-title">Follow Me</h2>
+                    <ul class="social-list">
+                        <li><a href="https://www.linkedin.com/in/vedika-vakhare-000aa1320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://x.com/Vedi_1905?t=AgVNi_4BsP4fkorCYqbNhA&s=08" class="social-link" target="_blank">Twitter</a></li>
+                        <li><a href="https://github.com/Vedi195" class="social-link" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Content before footer would go here -->
+    
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-content">
+                <div class="footer-info">
+                    <p class="footer-copyright">Vedika’s Portfolio – Crafting Modern Web Experiences</p>
+                </div>
+                <button class="back-to-top" id="backToTopBtn">Back to Top</button>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
