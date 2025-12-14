@@ -43,20 +43,27 @@ This portfolio highlights who I am, what I build, and the technologies I work wi
 
 ## 🖼️ Screenshots
 
-*Add screenshots of the website to give a quick visual overview.*
+### Home Page
+![Home Page](screenshots/home.png)
 
-Recommended:
+### About Page
+![Home Page](screenshots/about.png)
 
-* Home / Welcome page
-* About section
-* Skills section
-* Projects section
+### Skills Section
+![Skills](screenshots/skills.png)
+
+### Projects Section
+![Projects](screenshots/project1.png)
+![Projects](screenshots/project2.png)
+
+### Contact Page
+![Contact](screenshots/contact.png)
 
 ---
 
 ## 🌐 Live Demo
 
-*(Deployment link will be added soon using GitHub Pages or Netlify.)*
+https://thevakhareportfolio.netlify.app/
 
 ---
 
@@ -67,6 +74,7 @@ Aspiring Full Stack Developer
 
 * GitHub: [https://github.com/Vedi195](https://github.com/Vedi195)
 * LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)
+* Email :- vedikavakhare@gmal.com
 
 ---
 
