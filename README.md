@@ -74,7 +74,7 @@ Aspiring Full Stack Developer
 
 * GitHub: [https://github.com/Vedi195](https://github.com/Vedi195)
 * LinkedIn: [https://www.linkedin.com/](https://www.linkedin.com/)
-* Email :- [vedikavakhare@gmal.com]
+* Email :- (vedikavakhare@gmal.com)
 
 ---
 
