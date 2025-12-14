@@ -14,6 +14,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    document.addEventListener('DOMContentLoaded', function () {
+        // keep your other JS code here
+    });
+
+
     // Menu item click scrolling
     document.querySelectorAll('.menu-item').forEach(item => {
         item.addEventListener('click', function() {
