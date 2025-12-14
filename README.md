@@ -54,6 +54,7 @@ This portfolio highlights who I am, what I build, and the technologies I work wi
 
 ### Projects Section
 ![Projects](screenshots/project1.png)
+![Projects](screenshots/project2.png)
 
 ### Contact Page
 ![Contact](screenshots/contact.png)
@@ -62,7 +63,7 @@ This portfolio highlights who I am, what I build, and the technologies I work wi
 
 ## 🌐 Live Demo
 
-*(Deployment link will be added soon using GitHub Pages or Netlify.)*
+https://thevakhareportfolio.netlify.app/
 
 ---
 
