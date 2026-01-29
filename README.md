@@ -63,7 +63,7 @@ This portfolio highlights who I am, what I build, and the technologies I work wi
 
 ## 🌐 Live Demo
 
-https://thevakhareportfolio.netlify.app/
+https://thevedika-portfolio.netlify.app/
 
 ---
 
