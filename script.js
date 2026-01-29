@@ -1,23 +1,14 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Smooth scrolling function
-    function scrollToSection(sectionId) {
-        document.getElementById(sectionId).scrollIntoView({
-            behavior: 'smooth'
-        });
+// ✅ GLOBAL FUNCTION (must be at top)
+function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
     }
+}
 
-    // Button click scrolling
-    document.querySelectorAll('.btn').forEach(button => {
-        button.addEventListener('click', function() {
-            const targetSection = this.textContent === 'View My Work' ? 'work' : 'about';
-            scrollToSection(targetSection);
-        });
-    });
 
-    document.addEventListener('DOMContentLoaded', function () {
-        // keep your other JS code here
-    });
-
+document.addEventListener('DOMContentLoaded', function() {
+    
 
     // Menu item click scrolling
     document.querySelectorAll('.menu-item').forEach(item => {
@@ -45,6 +36,14 @@ document.addEventListener('DOMContentLoaded', function() {
             const projectTitle = this.parentElement.querySelector('.project-title').textContent;
             console.log(`Viewing project: ${projectTitle}`);
         });
+    });
+
+    window.addEventListener("load", () => {
+    const section = sessionStorage.getItem("lastSection");
+    if (section) {
+        document.getElementById(section)?.scrollIntoView({ behavior: "smooth" });
+        sessionStorage.removeItem("lastSection");
+    }
     });
 
     document.getElementById('ecommerce-img').src = 'images/po3.jpg';
@@ -104,6 +103,16 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileMenu.addEventListener("click", () => {
     mobileNav.style.display =
         mobileNav.style.display === "flex" ? "none" : "flex";
+    });
+
+
+    window.addEventListener("load", () => {
+    if (window.location.hash) {
+        const section = document.querySelector(window.location.hash);
+        if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+        }
+    }
     });
 
 });
