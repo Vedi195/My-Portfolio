@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     document.getElementById('ecommerce-img').src = 'images/po3.jpg';
     document.getElementById('portfolio-img').src = 'images/self.jpeg';
-    document.getElementById('taskapp-img').src = 'images/mazegame.webp';
+    document.getElementById('taskapp-img').src = 'images/refervaluecard_illustration.png';
 
     // Contact card scroll animation
     const contactCards = document.querySelectorAll('.contact-card');
