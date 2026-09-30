@@ -63,7 +63,7 @@ This portfolio highlights who I am, what I build, and the technologies I work wi
 
 ## 🌐 Live Demo
 
-https://thevedika-portfolio.netlify.app/
+https://my-portfolio-cyan-tau-68.vercel.app/
 
 ---
 
